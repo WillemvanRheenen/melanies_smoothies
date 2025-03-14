@@ -1,0 +1,8 @@
+account = "WWEOCLQ-GVB11262"
+user = "WILLEMVR"
+password = "Nimbus23_25Louis"
+role = "ACCOUNTADMIN"
+warehouse = "COMPUTE_WH"
+database = "SMOOTHIES"
+schema = "PUBLIC"
+client_session_keep_alive = true
