@@ -18,7 +18,8 @@ st.write("Choose the fruits you want in your custom Smoothie!")
 #     "What is your favourite fruit?",
 #     ("Banana", "Strawberries", "Peaches"),
 # )
-
+name_on_order = st.text_input("Name on Smoothie", "Monica")
+st.write("The name on your Smoothie will be:", name_on_order)
 # st.write("Your favorite fruit is:", option)
 cnx = st.connection('snowflake')
 session = cnx.session()
